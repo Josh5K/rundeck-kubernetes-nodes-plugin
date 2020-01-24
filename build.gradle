@@ -75,6 +75,6 @@ jar {
 //set jar task to depend on copyToLib
 jar.dependsOn(copyToLib)
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.2'
+wrapper {
+    gradleVersion = '6.4'
 }
